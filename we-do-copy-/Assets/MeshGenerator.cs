@@ -12,6 +12,8 @@ public class MeshGenerator : MonoBehaviour
 
     public int xSize = 200;
     public int zSize = 200;
+    public float scale = 0.01f;
+    public float noiseheight = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -19,15 +21,13 @@ public class MeshGenerator : MonoBehaviour
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
 
-        StartCoroutine(CreateShape());
-    }
-    
-    private void Update()
-    {
+        CreateShape();
         UpdateMesh();
     }
 
-    IEnumerator CreateShape ()
+
+    void CreateShape ()
+    //making vertecis 
     {
        vertices = new Vector3[(xSize + 1) * (zSize + 1)];
 
@@ -35,11 +35,12 @@ public class MeshGenerator : MonoBehaviour
         {
             for (int x = 0; x <= xSize; x++)
             {
-                float y = Mathf.PerlinNoise(x*0.3f,z*0.3f) * 2f;
+                float y = Mathf.PerlinNoise(x*scale,z*scale) * noiseheight;
                 vertices[i] = new Vector3(x,y,z);
                 i++;
             }
         }
+//adding up the verticies to make mesh
         triangles = new int[xSize*zSize*6];
         int vert = 0;
         int tris = 0;
@@ -59,7 +60,6 @@ public class MeshGenerator : MonoBehaviour
             vert++;
             tris += 6;
 
-            yield return new WaitForSeconds(0.01f);
             }
             vert++;
         }
@@ -77,15 +77,5 @@ public class MeshGenerator : MonoBehaviour
     }
 
 
-    private void OnDrawGizmos()
-    {
-        if (vertices == null)
-        {
-            return;
-        }
-        for (int i = 0; i < vertices.Length; i++)
-        {
-            Gizmos.DrawSphere(vertices[i], 0.1f);
-        }
-    }
+
 }

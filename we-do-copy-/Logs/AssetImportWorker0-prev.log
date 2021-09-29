@@ -1,0 +1,840 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 4095 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/we-do-copy-/we-do-copy-
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53595
+Successfully changed project path to: G:/we-do-copy-/we-do-copy-
+G:/we-do-copy-/we-do-copy-
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 97.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/we-do-copy-/we-do-copy-/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0xf02)
+    Vendor:   
+    VRAM:     4041 MB
+    Driver:   23.21.13.8813
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007676 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 116.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3981ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1349ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (555ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5370ms)
+		BeginReloadAssembly (594ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (4239ms)
+			LoadAssemblies (372ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1056ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (2304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (2009ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 8.291400 ms (FindLiveObjects: 0.431200 ms CreateObjectMapping: 0.099400 ms MarkObjects: 7.271700 ms  DeleteObjects: 0.486600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d1f12f0f4420a8b9dea50868bbb5d0') in 0.134827 seconds 
+  Import took 0.169897 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.580 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4581ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (4114ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (779ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (2571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (326ms)
+				ProcessInitializeOnLoadAttributes (2193ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 10.554000 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.115100 ms MarkObjects: 9.228700 ms  DeleteObjects: 0.718000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137.553624 seconds.
+  path: Assets/heightmaps
+  artifactKey: Guid(017811ee166ca1148b935312e1c82f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps using Guid(017811ee166ca1148b935312e1c82f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa022378279da78293af9d8b2e077d78') in 0.047098 seconds 
+  Import took 0.076066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095184 seconds.
+  path: Assets/heightmaps/ldem_64_uint_01.png
+  artifactKey: Guid(6f89b97a93b479a42b31b75c9957ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_01.png using Guid(6f89b97a93b479a42b31b75c9957ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4e15f4603052831c42b26233142697') in 0.246204 seconds 
+  Import took 0.270810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/heightmaps/ldem_64_uint_23.png
+  artifactKey: Guid(7d4908f6ea9ace84f8e26d60569311fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_23.png using Guid(7d4908f6ea9ace84f8e26d60569311fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599f2f55ec4176785687a7f5ccfb20ac') in 0.089681 seconds 
+  Import took 0.105082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010276 seconds.
+  path: Assets/heightmaps/ldem_64_uint_22.png
+  artifactKey: Guid(5e1a79770c7c4c143a8595a2fc08f6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_22.png using Guid(5e1a79770c7c4c143a8595a2fc08f6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed873b1e0824f792512c7627291ae10') in 0.091283 seconds 
+  Import took 0.102942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/heightmaps/ldem_64_uint_24.png
+  artifactKey: Guid(4cee87ed5c0c0c940a9117fef679f812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_24.png using Guid(4cee87ed5c0c0c940a9117fef679f812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b2760537c9197b770a27417a7271b1') in 0.093381 seconds 
+  Import took 0.104974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/heightmaps/ldem_64_uint_18.png
+  artifactKey: Guid(545e4c431057b054d941f94e987302af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_18.png using Guid(545e4c431057b054d941f94e987302af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b9b85894f176aa121ecb307b6f2a35') in 0.084113 seconds 
+  Import took 0.090939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/heightmaps/ldem_64_uint_06.png
+  artifactKey: Guid(87f3b041479fd8f4dbbff0808f4e15a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_06.png using Guid(87f3b041479fd8f4dbbff0808f4e15a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db937fa6dfed81d1e431277281dfb470') in 0.075209 seconds 
+  Import took 0.111487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/heightmaps/ldem_64_uint_03.png
+  artifactKey: Guid(a76ad85eea84f804eb4adf41eb7beae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_03.png using Guid(a76ad85eea84f804eb4adf41eb7beae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae10672408a7d2446293a5884d489c64') in 0.093668 seconds 
+  Import took 0.120835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/heightmaps/ldem_64_uint_02.png
+  artifactKey: Guid(8dc15650d912cf9428390e581b519d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_02.png using Guid(8dc15650d912cf9428390e581b519d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd863515975cf06fe6afcf56e060841da') in 0.069440 seconds 
+  Import took 0.086903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/heightmaps/ldem_64_uint_05.png
+  artifactKey: Guid(1a4a6a1915e3fce45a67866ec7603136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_05.png using Guid(1a4a6a1915e3fce45a67866ec7603136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc720a750cbbe068b4041efdd3aa8bbe') in 0.072567 seconds 
+  Import took 0.091043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/heightmaps/ldem_64_uint_20.png
+  artifactKey: Guid(034f924ea5bf9a444b3dfffd135c0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_20.png using Guid(034f924ea5bf9a444b3dfffd135c0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56382a8b474c1b3b026101fd8f65b26f') in 0.119311 seconds 
+  Import took 0.126555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/heightmaps/ldem_64_uint_10.png
+  artifactKey: Guid(830a2de89564050468ca053fdc8cd1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_10.png using Guid(830a2de89564050468ca053fdc8cd1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b05f904f552b43136da7af6d2f99baf') in 0.114082 seconds 
+  Import took 0.136913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/heightmaps/ldem_64_uint_04.png
+  artifactKey: Guid(92cfb32a602695640b523cae154edd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_04.png using Guid(92cfb32a602695640b523cae154edd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c55883a82c2d779ce7f3770db6a7fc1') in 0.094571 seconds 
+  Import took 0.116912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/heightmaps/ldem_64_uint_12.png
+  artifactKey: Guid(7cd58bbf557304347ace87c30edfc0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_12.png using Guid(7cd58bbf557304347ace87c30edfc0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae16cec917aa45fb4e1281a5516402b5') in 0.072724 seconds 
+  Import took 0.079318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/heightmaps/ldem_64_uint_07.png
+  artifactKey: Guid(0c5a75f0d1a966c43a878bd46ed1c490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_07.png using Guid(0c5a75f0d1a966c43a878bd46ed1c490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92c58e9c0fb76f126c3b868db717437') in 0.074550 seconds 
+  Import took 0.095807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/heightmaps/ldem_64_uint_15.png
+  artifactKey: Guid(d35647e0bc7c1c44e8a8b196820c6ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_15.png using Guid(d35647e0bc7c1c44e8a8b196820c6ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab0b500250f6aa289b81b3799d4657e') in 0.061088 seconds 
+  Import took 0.089224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/heightmaps/ldem_64_uint_08.png
+  artifactKey: Guid(a0c38642c5bc22141aab546cc93b21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_08.png using Guid(a0c38642c5bc22141aab546cc93b21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd917dde15ffb498630f925bd2a92a0') in 0.065318 seconds 
+  Import took 0.077265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/heightmaps/ldem_64_uint_16.png
+  artifactKey: Guid(61c5c5a81aab4af4eae5b7b3b3c1e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_16.png using Guid(61c5c5a81aab4af4eae5b7b3b3c1e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d745c38923cd7dfdefef3ab3320622e') in 0.102957 seconds 
+  Import took 0.131382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/heightmaps/ldem_64_uint_11.png
+  artifactKey: Guid(c302d44a007610440b6675085a31cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_11.png using Guid(c302d44a007610440b6675085a31cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40809de452ea5834631f66e3c5749cfd') in 0.065200 seconds 
+  Import took 0.098438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/heightmaps/ldem_64_uint_19.png
+  artifactKey: Guid(9ae576b3fb8175d4a8e076d5a9e4a5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_19.png using Guid(9ae576b3fb8175d4a8e076d5a9e4a5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965b4a9edeb2d88f2ba2355e756b3cd0') in 0.053248 seconds 
+  Import took 0.073821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002361 seconds.
+  path: Assets/heightmaps/ldem_64_uint_13.png
+  artifactKey: Guid(f0c8eccce710acf4f887f06a9553f92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_13.png using Guid(f0c8eccce710acf4f887f06a9553f92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671ecc0c7244bdc1614af4045c53d750') in 0.032965 seconds 
+  Import took 0.051456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/heightmaps/ldem_64_uint_21.png
+  artifactKey: Guid(492477443783ab64abe17dcae7872f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_21.png using Guid(492477443783ab64abe17dcae7872f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c14c831d426114e8f3a3a3ca5a402c') in 0.032352 seconds 
+  Import took 0.053920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/heightmaps/ldem_64_uint_25.png
+  artifactKey: Guid(62b61fd24fccc4c4eb5bf28f61e3668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_25.png using Guid(62b61fd24fccc4c4eb5bf28f61e3668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052f970fa9f12ed66694749962774465') in 0.035026 seconds 
+  Import took 0.048182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/heightmaps/ldem_64_uint_14.png
+  artifactKey: Guid(f93b8b53b1ce4e04e851d47ebf71c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_14.png using Guid(f93b8b53b1ce4e04e851d47ebf71c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6a73cadf4c7e06ac2bc4009387628c') in 0.052661 seconds 
+  Import took 0.060111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001048 seconds.
+  path: Assets/heightmaps/ldem_64_uint_17.png
+  artifactKey: Guid(d750d807c98dd3240a501cd1fb4cdcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_17.png using Guid(d750d807c98dd3240a501cd1fb4cdcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb0b620ec915be74f093ceab9984f4d') in 0.039777 seconds 
+  Import took 0.054311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/heightmaps/ldem_64_uint_09.png
+  artifactKey: Guid(6c45f8e4346c75c43903e077bb28246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/heightmaps/ldem_64_uint_09.png using Guid(6c45f8e4346c75c43903e077bb28246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5a3da15720e663438511002b745b38') in 0.030486 seconds 
+  Import took 0.037292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.747931 seconds.
+  path: Assets/moonHeightmaps
+  artifactKey: Guid(017811ee166ca1148b935312e1c82f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps using Guid(017811ee166ca1148b935312e1c82f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283366ce8a4f09daa3dd20558664270d') in 0.072794 seconds 
+  Import took 0.121376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.439764 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_01.png
+  artifactKey: Guid(6f89b97a93b479a42b31b75c9957ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_01.png using Guid(6f89b97a93b479a42b31b75c9957ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c2ab107b825d59608e8d0d64fd7d1e') in 0.110532 seconds 
+  Import took 0.139847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.979603 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_02.png
+  artifactKey: Guid(8dc15650d912cf9428390e581b519d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_02.png using Guid(8dc15650d912cf9428390e581b519d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cf2cd7ddb8b37506aef849628a55e8') in 0.129080 seconds 
+  Import took 0.158557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.494637 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_03.png
+  artifactKey: Guid(a76ad85eea84f804eb4adf41eb7beae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_03.png using Guid(a76ad85eea84f804eb4adf41eb7beae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baf03184057118143595d61d418d9c6') in 0.079520 seconds 
+  Import took 0.184514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.725256 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_04.png
+  artifactKey: Guid(92cfb32a602695640b523cae154edd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_04.png using Guid(92cfb32a602695640b523cae154edd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c91b6071b20f3bc602f40d91642770') in 0.109636 seconds 
+  Import took 0.144358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.746007 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_05.png
+  artifactKey: Guid(1a4a6a1915e3fce45a67866ec7603136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_05.png using Guid(1a4a6a1915e3fce45a67866ec7603136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596a474548300a1cb55fb687e50d3223') in 0.078912 seconds 
+  Import took 0.147464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.289457 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_06.png
+  artifactKey: Guid(87f3b041479fd8f4dbbff0808f4e15a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_06.png using Guid(87f3b041479fd8f4dbbff0808f4e15a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f404f727dd875ac95775dc1c0e2b3ce5') in 0.098149 seconds 
+  Import took 0.114179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.578855 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_07.png
+  artifactKey: Guid(0c5a75f0d1a966c43a878bd46ed1c490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_07.png using Guid(0c5a75f0d1a966c43a878bd46ed1c490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5819ff6ad22e8ae7c412be148305b31e') in 0.073982 seconds 
+  Import took 0.085478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.598238 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_08.png
+  artifactKey: Guid(a0c38642c5bc22141aab546cc93b21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_08.png using Guid(a0c38642c5bc22141aab546cc93b21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cef585c7feb8ceb55455a63d0b0080') in 0.136747 seconds 
+  Import took 0.161488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.377333 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_09.png
+  artifactKey: Guid(6c45f8e4346c75c43903e077bb28246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_09.png using Guid(6c45f8e4346c75c43903e077bb28246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75882da612949438354044427ab1ae5') in 0.081978 seconds 
+  Import took 0.296772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.007010 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_10.png
+  artifactKey: Guid(830a2de89564050468ca053fdc8cd1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_10.png using Guid(830a2de89564050468ca053fdc8cd1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d4112d380eb58e4f551d99d73a77c7') in 0.037385 seconds 
+  Import took 0.048678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.564564 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_11.png
+  artifactKey: Guid(c302d44a007610440b6675085a31cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_11.png using Guid(c302d44a007610440b6675085a31cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3564ee822dfb30f2daf234dfdf8d6687') in 0.117382 seconds 
+  Import took 0.132626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.766455 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_12.png
+  artifactKey: Guid(7cd58bbf557304347ace87c30edfc0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_12.png using Guid(7cd58bbf557304347ace87c30edfc0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af478fd1cde7c57a5ece8cffdc2b6e1f') in 0.131587 seconds 
+  Import took 0.159771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.740578 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_13.png
+  artifactKey: Guid(f0c8eccce710acf4f887f06a9553f92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_13.png using Guid(f0c8eccce710acf4f887f06a9553f92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f1875a6336e248cb5dc03755726f99') in 0.105724 seconds 
+  Import took 0.130900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.067203 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_14.png
+  artifactKey: Guid(f93b8b53b1ce4e04e851d47ebf71c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_14.png using Guid(f93b8b53b1ce4e04e851d47ebf71c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cca5f8679b97237b9a75ae60ef260d') in 0.116945 seconds 
+  Import took 0.133148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.729144 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_15.png
+  artifactKey: Guid(d35647e0bc7c1c44e8a8b196820c6ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_15.png using Guid(d35647e0bc7c1c44e8a8b196820c6ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783123d29d7e005ce2f2235559c6de77') in 0.118140 seconds 
+  Import took 0.140332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.229884 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_16.png
+  artifactKey: Guid(61c5c5a81aab4af4eae5b7b3b3c1e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_16.png using Guid(61c5c5a81aab4af4eae5b7b3b3c1e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88561aca8da4635772f1e33a3eba78cc') in 0.091087 seconds 
+  Import took 0.106864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.530653 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_17.png
+  artifactKey: Guid(d750d807c98dd3240a501cd1fb4cdcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_17.png using Guid(d750d807c98dd3240a501cd1fb4cdcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54fa89f133135f881407f417a941a25') in 0.040151 seconds 
+  Import took 0.075037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007355 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_17.png
+  artifactKey: Guid(d750d807c98dd3240a501cd1fb4cdcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_17.png using Guid(d750d807c98dd3240a501cd1fb4cdcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54fa89f133135f881407f417a941a25') in 0.249928 seconds 
+  Import took 0.412042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.765752 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_18.png
+  artifactKey: Guid(545e4c431057b054d941f94e987302af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_18.png using Guid(545e4c431057b054d941f94e987302af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e723947bd29b847c802650d0ff652ff') in 0.104070 seconds 
+  Import took 0.144537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.787848 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_19.png
+  artifactKey: Guid(9ae576b3fb8175d4a8e076d5a9e4a5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_19.png using Guid(9ae576b3fb8175d4a8e076d5a9e4a5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699148430aac71b25cd3acb817b2a63d') in 0.119057 seconds 
+  Import took 0.180679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.219232 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_20.png
+  artifactKey: Guid(034f924ea5bf9a444b3dfffd135c0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_20.png using Guid(034f924ea5bf9a444b3dfffd135c0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b09fa9f7662f23a33cbc3b623702402') in 0.178274 seconds 
+  Import took 0.187813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.808103 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_21.png
+  artifactKey: Guid(492477443783ab64abe17dcae7872f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_21.png using Guid(492477443783ab64abe17dcae7872f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfea630276ff58c1c587a8030973bbf') in 0.031745 seconds 
+  Import took 0.039260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.479925 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_22.png
+  artifactKey: Guid(5e1a79770c7c4c143a8595a2fc08f6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_22.png using Guid(5e1a79770c7c4c143a8595a2fc08f6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aecfe2674411fbec0f7f8340e24c620') in 0.187828 seconds 
+  Import took 0.218109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.664851 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_23.png
+  artifactKey: Guid(7d4908f6ea9ace84f8e26d60569311fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_23.png using Guid(7d4908f6ea9ace84f8e26d60569311fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab45b871cdc14f34bde4f38701832eb') in 0.101794 seconds 
+  Import took 0.157174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.387586 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_24.png
+  artifactKey: Guid(4cee87ed5c0c0c940a9117fef679f812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_24.png using Guid(4cee87ed5c0c0c940a9117fef679f812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e1aa6781f4f9c5113c47f74637f39') in 0.167240 seconds 
+  Import took 0.206930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.510452 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_25.png
+  artifactKey: Guid(62b61fd24fccc4c4eb5bf28f61e3668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_25.png using Guid(62b61fd24fccc4c4eb5bf28f61e3668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c372b70ee7f07f78004e5d17ed206c3a') in 0.119457 seconds 
+  Import took 0.130130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.376141 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(86600c7d591310e49ad5f607c68d2ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(86600c7d591310e49ad5f607c68d2ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33897714cb635da0376d5f22f15498fd') in 4.458888 seconds 
+  Import took 4.489595 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4526ms)
+		BeginReloadAssembly (370ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (3951ms)
+			LoadAssemblies (336ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1110ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (1972ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (326ms)
+				ProcessInitializeOnLoadAttributes (1587ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2070.
+Total: 9.910800 ms (FindLiveObjects: 0.505000 ms CreateObjectMapping: 0.112800 ms MarkObjects: 7.989100 ms  DeleteObjects: 1.300000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1410.460077 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_04 1.png
+  artifactKey: Guid(19c56a241104d334aa735611afcc75f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_04 1.png using Guid(19c56a241104d334aa735611afcc75f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb0a5f9c674ade221ffa3cadf06eef7') in 0.267432 seconds 
+  Import took 0.281147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_05 1.png
+  artifactKey: Guid(ad5730213d3dabb42bc91abb1791793f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_05 1.png using Guid(ad5730213d3dabb42bc91abb1791793f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c5b4ccefed2a2098ee40013ece38e9') in 0.099513 seconds 
+  Import took 0.205941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001480 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_15 1.png
+  artifactKey: Guid(b3699f5284ea8334e8997e7882d71f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_15 1.png using Guid(b3699f5284ea8334e8997e7882d71f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c53454ddc8136a9319110e9534402b') in 0.186118 seconds 
+  Import took 0.330286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_09 1.png
+  artifactKey: Guid(c65f33213884c1848b4d5655b4522962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_09 1.png using Guid(c65f33213884c1848b4d5655b4522962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18741f2105e65435f55e391d23bdbfec') in 0.179538 seconds 
+  Import took 0.207226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_14 1.png
+  artifactKey: Guid(6d3371dd973b3c849980cc47585bbce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_14 1.png using Guid(6d3371dd973b3c849980cc47585bbce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31bf728f5bcca75c0ed422305e3ba7') in 0.091367 seconds 
+  Import took 0.175473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_10 1.png
+  artifactKey: Guid(dc2e072dc459fe646b23e9d6b06f5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_10 1.png using Guid(dc2e072dc459fe646b23e9d6b06f5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a58337ac6d47421e63406fedc604a3b') in 0.084785 seconds 
+  Import took 0.146674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/moonHeightmaps/ldem_64_uint_20 1.png
+  artifactKey: Guid(b1bdeca5b41493849a665967e13994be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moonHeightmaps/ldem_64_uint_20 1.png using Guid(b1bdeca5b41493849a665967e13994be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1138a12f90ca9835d92d00e7695dd40') in 0.107659 seconds 
+  Import took 0.149932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.046869 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(f713c5081b240344598953879adad17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(f713c5081b240344598953879adad17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499406d777783249a42854af3d8fac0e') in 0.152025 seconds 
+  Import took 0.353314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/New Terrain 3.asset
+  artifactKey: Guid(4a67a4d6f669aa0458b7a58807b55700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 3.asset using Guid(4a67a4d6f669aa0458b7a58807b55700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bee2e46f1cbf7f9f7c92b5890ac5bf1') in 0.053120 seconds 
+  Import took 0.171736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(f831df6c417667946b55b92ac21d2220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(f831df6c417667946b55b92ac21d2220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c0fc6de0b69ea19155dfb92da28062') in 0.078067 seconds 
+  Import took 0.098104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/New Terrain 4.asset
+  artifactKey: Guid(10e8e2633d4934e4d8b8fa50900ef344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 4.asset using Guid(10e8e2633d4934e4d8b8fa50900ef344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d1caf5d695a86400caa4809c5b7a40') in 0.045706 seconds 
+  Import took 0.101088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(86600c7d591310e49ad5f607c68d2ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(86600c7d591310e49ad5f607c68d2ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfcf9a4aa53f8413a8a85b3673098a6') in 0.046998 seconds 
+  Import took 0.082190 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 20.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (20287ms)
+		BeginReloadAssembly (1133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (148ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (512ms)
+		EndReloadAssembly (18619ms)
+			LoadAssemblies (1007ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1936ms)
+			ReleaseScriptCaches (24ms)
+			RebuildScriptCaches (253ms)
+			SetupLoadedEditorAssemblies (14852ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (356ms)
+				ProcessInitializeOnLoadAttributes (14421ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2072.
+Total: 7.909300 ms (FindLiveObjects: 0.425300 ms CreateObjectMapping: 0.100300 ms MarkObjects: 6.827900 ms  DeleteObjects: 0.553300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
